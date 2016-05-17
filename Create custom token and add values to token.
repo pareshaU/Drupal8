@@ -1,0 +1,56 @@
+<?php 
+/**
+ * @file
+ * contains custom token declaration script.
+ */
+/**
+ * Implements hook_token_info().
+ */
+function custom_token_info(){
+  $types['custom_type'] = array(
+    'name' => t("My Custom Type"),
+    'description' => t("Custom token type defined for sitewide used."),
+  );
+    // Site-wide global token.
+  $mytoken['custom_name'] = array(
+    'name' => t("Custom Token Name"),
+    'description' => t("Defined the custom token name."),
+  );
+  return array(
+    'types' => $types,
+    'tokens' => array(
+      'custom_type' => $mytoken,
+    ),
+  );
+}
+
+/**
+ * Implements hook_tokens().
+ */
+function custom_tokens($type, $tokens, array $data, array $options, \Drupal\Core\Render\BubbleableMetadata $bubbleable_metadata) {
+  $token_service = \Drupal::token();
+
+  $url_options = array('absolute' => TRUE);
+  if (isset($options['langcode'])) {
+    $url_options['language'] = \Drupal::languageManager()->getLanguage($options['langcode']);
+    $langcode = $options['langcode'];
+  }
+  else {
+    $langcode = NULL;
+  }
+  $replacements = array();
+
+  if ($type == 'custom_type') {
+    foreach ($tokens as $name => $original) {
+      switch ($name) {
+        case 'custom_name':
+          $config = \Drupal::config('system.site');
+          $bubbleable_metadata->addCacheableDependency($config);
+          $custom_name = $config->get('name');
+          $replacements[$original] = $custom_name; // for testing purpose set value as site name
+          break;
+      }
+    }
+  }
+  return $replacements;
+}
