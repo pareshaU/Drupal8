@@ -1,0 +1,21 @@
+Step 1.
+Create custom link and it should looks like:
+<a class="button use-ajax" data-dialog-type="modal" href="/ROOT/contact">contact</a>
+
+Step 2.
+Add below Hook in custom module file.
+function MODULENAME_preprocess_html(&$variables) {
+  $variables['page']['#attached']['library'][] = 'core/drupal.ajax';
+}
+
+Step 3.
+Add router in MODULENAME.routing.yml.
+module.contact:
+  path: '/contact'
+  defaults:
+    _form: '\Drupal\MODULENAME\Form\ContactForm'
+  requirements:
+    _access: 'TRUE'
+
+Step 4.
+Custom contact form.
