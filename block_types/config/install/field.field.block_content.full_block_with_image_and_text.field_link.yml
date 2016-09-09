@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block_with_image_and_text
+    - field.storage.block_content.field_link
+  module:
+    - link
+id: block_content.full_block_with_image_and_text.field_link
+field_name: field_link
+entity_type: block_content
+bundle: full_block_with_image_and_text
+label: Link
+description: 'This is to display a link from inside your block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

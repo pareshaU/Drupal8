@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: full_block_with_image_and_text
+label: 'Full Block with Image and Text'
+revision: 1
+description: 'Full Block with Image and Text'

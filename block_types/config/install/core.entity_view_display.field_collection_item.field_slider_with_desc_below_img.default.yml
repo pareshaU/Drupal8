@@ -1,0 +1,59 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_slider_with_desc_below_img.field_link
+    - field.field.field_collection_item.field_slider_with_desc_below_img.field_slider_image
+    - field.field.field_collection_item.field_slider_with_desc_below_img.field_slider_subtitle
+    - field.field.field_collection_item.field_slider_with_desc_below_img.field_text
+    - field.field.field_collection_item.field_slider_with_desc_below_img.field_title
+    - field_collection.field_collection.field_slider_with_desc_below_img
+  module:
+    - image
+    - link
+    - text
+id: field_collection_item.field_slider_with_desc_below_img.default
+targetEntityType: field_collection_item
+bundle: field_slider_with_desc_below_img
+mode: default
+content:
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_slider_image:
+    weight: 5
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_slider_subtitle:
+    weight: 6
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_text:
+    weight: 2
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

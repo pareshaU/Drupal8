@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slider_description_below_image
+label: 'Slider with Description Below Image'
+revision: 1
+description: 'Slider with Description Below Image.'

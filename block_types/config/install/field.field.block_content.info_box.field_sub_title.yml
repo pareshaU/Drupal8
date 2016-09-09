@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_box
+    - field.storage.block_content.field_sub_title
+id: block_content.info_box.field_sub_title
+field_name: field_sub_title
+entity_type: block_content
+bundle: info_box
+label: 'Sub Title'
+description: 'This will be subtitle text in your block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_description_below_image
+    - field.storage.block_content.field_color
+  module:
+    - options
+id: block_content.slider_description_below_image.field_color
+field_name: field_color
+entity_type: block_content
+bundle: slider_description_below_image
+label: Color
+description: 'The color option selected will provide the background color to the block.'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

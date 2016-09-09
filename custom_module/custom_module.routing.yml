@@ -1,0 +1,13 @@
+custom.settings:
+  path: '/admin/config/system/custom/settings'
+  defaults:
+    _form: '\Drupal\custom_module\Form\SocialmediaSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+duolaw.modal:
+  path: '/custom-details/modal'
+  defaults:
+    _controller: '\Drupal\custom_module\Controller\ModalController::page'
+  requirements:
+    _permission: 'access content'

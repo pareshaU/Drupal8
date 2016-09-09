@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_with_banner
+    - field.field.block_content.slider_with_banner.field_color
+    - field.field.block_content.slider_with_banner.field_slider_with_banner
+  module:
+    - ds
+    - field_collection
+id: block_content.slider_with_banner.default
+targetEntityType: block_content
+bundle: slider_with_banner
+mode: default
+content:
+  field_slider_with_banner:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+    type: field_collection_items
+hidden:
+  field_color: true

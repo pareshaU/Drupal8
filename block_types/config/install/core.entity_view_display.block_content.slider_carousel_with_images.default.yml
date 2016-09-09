@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_carousel_with_images
+    - field.field.block_content.slider_carousel_with_images.field_slider_carousel_image
+  module:
+    - field_collection
+id: block_content.slider_carousel_with_images.default
+targetEntityType: block_content
+bundle: slider_carousel_with_images
+mode: default
+content:
+  field_slider_carousel_image:
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+hidden: {  }

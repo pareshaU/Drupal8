@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_box
+    - field.storage.block_content.field_body
+  module:
+    - text
+id: block_content.info_box.field_body
+field_name: field_body
+entity_type: block_content
+bundle: info_box
+label: Text
+description: 'This is for the body text of your block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_carousel_with_points
+    - field.storage.block_content.field_slider_carousel_point
+  module:
+    - field_collection
+id: block_content.slider_carousel_with_points.field_slider_carousel_point
+field_name: field_slider_carousel_point
+entity_type: block_content
+bundle: slider_carousel_with_points
+label: 'Slider Carousel with Points'
+description: 'Slider Carousel with Points.'
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

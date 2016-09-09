@@ -1,0 +1,33 @@
+{% set color = content.field_color['#items'].getValue() %}
+
+{%
+  set classes = [
+    's3-bg-' ~ color.0.value,
+    's3-scored',
+  ]
+%}
+
+{% set fileuri = content.field_image['#items'].entity.getFileUri() %}
+
+
+{#% set conBody %}
+     {{ content.field_body }}
+{% endset %#}
+
+<div {{ attributes.addClass(classes) }}>
+  <div class="container s3-m-8">
+    <div class="row">
+      {% if fileuri %}
+      <div class="col-xs-12 col-sm-8">
+        <img class="img-responsive s3-bs" src="{{file_url(content.field_image['#items'].entity.getFileUri())}}">
+      </div>
+      {% endif %}
+      {% if content.field_body %}
+      <div class="col-xs-12 col-sm-4">
+        <hr>
+         {{ content.field_body }}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

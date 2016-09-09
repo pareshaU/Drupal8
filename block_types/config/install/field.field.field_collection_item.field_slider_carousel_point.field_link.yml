@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_link
+    - field_collection.field_collection.field_slider_carousel_point
+  module:
+    - link
+id: field_collection_item.field_slider_carousel_point.field_link
+field_name: field_link
+entity_type: field_collection_item
+bundle: field_slider_carousel_point
+label: Link
+description: 'This is to display a link from inside your block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

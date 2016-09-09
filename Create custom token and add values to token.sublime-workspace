@@ -1,0 +1,249 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/wamp/www/paresha_Drupal8/block_types/config/install/core.entity_form_display.block_content.full_block_with_image_and_text.default.yml",
+		"/E/wamp/www/paresha_Drupal8/block_types/block_types.info.yml",
+		"/E/wamp/www/paresha_Drupal8/block_types/block_types.features.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_features/fsu_element_blocks.info.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_features/fsu_element_blocks.features.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_module/src/Form/SocialmediaSettingsForm.php",
+		"/E/wamp/www/paresha_Drupal8/custom_module/src/Controller/ModalController.php",
+		"/E/wamp/www/paresha_Drupal8/custom_module/src/Plugin/Block/ContactFormBlock.php",
+		"/E/wamp/www/paresha_Drupal8/custom_module/custom_module.links.menu.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_module/custom_module.routing.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_module/custom_module.info.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_module/custom_module.module",
+		"/E/wamp/www/paresha_Drupal8/custom_module/src/Form/ContactForm.php",
+		"/E/wamp/www/paresha_Drupal8/SocialmediaSettingsForm.php",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/src/Plugin/Block/AttorneyDetailsShareFormBlock.php",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/src/Controller/ModalController.php",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/duolaw_core.routing.yml",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/duolaw_core.module",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/duolaw_core.links.menu.yml",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/views.view.attorney_details.yml",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/duolaw_core.info.yml",
+		"/E/wamp/www/paresha_Drupal8/custom_module/src/Plugin/Block/AttorneyDetailsContactFormBlock.php",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/src/Form/DuolawSettingsForm.php",
+		"/C/Users/paresha.uchdadiya/Downloads/addtocal-7.x-1.0/addtocal/addtocal.module",
+		"/C/Users/paresha.uchdadiya/Downloads/addtocal-7.x-1.0/addtocal/addtocal.tokens.inc",
+		"/C/Users/paresha.uchdadiya/Downloads/addtocal-7.x-1.0/addtocal/addtocal.api.php",
+		"/C/Users/paresha.uchdadiya/Downloads/addtocal-7.x-1.0/addtocal/addtocal.info",
+		"/C/Users/paresha.uchdadiya/Downloads/addtocal-7.x-1.0/addtocal/addtocal.js",
+		"/E/wamp/www/drupal737/sites/all/modules/contrib/addtocal/addtocal.module",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/src/Form/AttorneyDetailsContactForm.php",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/themes/duo_law_starter/templates/views/views-view-unformatted--attorney_details.html.twig",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/themes/duo_law_starter/duo_law_starter.theme",
+		"/E/wamp/www/duolaw_develop/profiles/duo_law/modules/custom/duolaw_core/src/Plugin/Block/AttorneyDetailsContactFormBlock.php",
+		"/E/wamp/www/fsu/docroot/sites/default/settings.php",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_element_blocks/config/install/field.storage.block_content.field_image.yml",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_element_blocks/config/install/field.field.block_content.info_box.field_image.yml",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_slider_blocks/config/install/field.field.field_collection_item.field_slider_by_third.field_slider_image.yml",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_slider_blocks/config/install/field.field.field_collection_item.field_slider_with_banner.field_slider_image.yml",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_slider_blocks/config/install/field.storage.field_collection_item.field_slider_image.yml",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/page.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/html.html.twig",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_slider_blocks/fsu_slider_blocks.info.yml",
+		"/E/wamp/www/fsu_remote/docroot/modules/custom/fsu_slider_blocks/fsu_slider_blocks.info.yml",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_slider_blocks/fsu_slider_blocks.features.yml",
+		"/E/wamp/www/fsu_remote/docroot/sites/default/settings.php",
+		"/E/wamp/www/fsu_remote/docroot/sites/default/services.yml",
+		"/E/wamp/www/index.php",
+		"/E/wamp/www/fsu_branch/fsu/docroot/sites/default/settings.php",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-by-halve--slider-by-halves.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-by-third--slider-by-thirds.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-carousel-image--slider-carousel-with-images.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-carousel-point--slider-carousel-with-points.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-with-banner--slider-with-banner.html.twig",
+		"/E/wamp/www/fsu_branch/fsu/docroot/sites/default/services.yml",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field/field--block-content--field-slider-with-desc-below-img--slider-description-below-image.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field--block-content--field-body--full-block-with-text.html.twig",
+		"/E/wamp/www/fsu/docroot/sites/default/services.yml",
+		"/C/Users/paresha.uchdadiya/AppData/Roaming/Skype/My Skype Received Files/services(1).yml",
+		"/C/Users/paresha.uchdadiya/AppData/Roaming/Skype/My Skype Received Files/settings(1).php",
+		"/C/Users/paresha.uchdadiya/AppData/Roaming/Skype/My Skype Received Files/services.yml",
+		"/C/Users/paresha.uchdadiya/AppData/Roaming/Skype/My Skype Received Files/settings.php",
+		"/E/wamp/www/fsu/docroot/core/modules/block_content/templates/block-content-add-list.html.twig",
+		"/E/wamp/www/fsu/docroot/core/modules/block/templates/block.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/block--bundle--info-box.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/block--bundle--full-block-with-image-and-text.html.twig",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/field--block-content--field-body--full-block-with-image-and-text.html.twig",
+		"/E/wamp/www/fsu/docroot/modules/custom/fsu_element_blocks/fsu_element_blocks.info.yml",
+		"/E/wamp/bin/mysql/mysql5.7.9/my.ini",
+		"/E/wamp/bin/apache/apache2.4.17/bin/php.ini",
+		"/E/wamp/www/fsu/docroot/modules/contrib/devel/kint/kint/config.default.php",
+		"/E/wamp/bin/apache/apache2.4.17/conf/httpd.conf",
+		"/E/wamp/logs/php_error.log",
+		"/E/wamp/logs/mysql.log",
+		"/E/wamp/www/fsu/docroot/themes/custom/fsu_strata/templates/block--bundle--slider-by-thirds.html.twig",
+		"/E/wamp/bin/apache/apache2.4.17/conf/extra/httpd-vhosts.conf"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"attorney",
+			"suppress_localhost",
+			"max",
+			"D:",
+			".\n",
+			"vhost",
+			"memory",
+			"max",
+			"maximum",
+			"memory"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Create custom token and add values to token.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

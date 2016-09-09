@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_description_below_image
+    - field.storage.block_content.field_slider_with_desc_below_img
+  module:
+    - field_collection
+id: block_content.slider_description_below_image.field_slider_with_desc_below_img
+field_name: field_slider_with_desc_below_img
+entity_type: block_content
+bundle: slider_description_below_image
+label: 'Slider with Description Below Image'
+description: 'Field Collection of Slider with Description Below Image.'
+required: false
+translatable: false
+default_value:
+  - {  }
+  - {  }
+  - {  }
+default_value_callback: ''
+settings: {  }
+field_type: field_collection

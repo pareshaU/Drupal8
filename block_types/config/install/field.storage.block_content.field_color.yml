@@ -1,0 +1,62 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_color
+field_name: field_color
+entity_type: block_content
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: gt
+      label: GT
+    -
+      value: gd
+      label: GD
+    -
+      value: gd1c
+      label: GD1C
+    -
+      value: gd2c
+      label: GD2C
+    -
+      value: gd3c
+      label: GD3C
+    -
+      value: c
+      label: C
+    -
+      value: w
+      label: W
+    -
+      value: n2w
+      label: N2W
+    -
+      value: n1w
+      label: N1W
+    -
+      value: 'n'
+      label: 'N'
+    -
+      value: n1s
+      label: N1S
+    -
+      value: n2s
+      label: N2S
+    -
+      value: s
+      label: S
+    -
+      value: k
+      label: K
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

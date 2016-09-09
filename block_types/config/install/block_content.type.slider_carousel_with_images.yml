@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slider_carousel_with_images
+label: 'Slider Carousel with Images'
+revision: 1
+description: 'Slider Carousel with Images.'

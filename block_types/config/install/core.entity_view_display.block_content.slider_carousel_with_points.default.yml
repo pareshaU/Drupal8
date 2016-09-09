@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.slider_carousel_with_points
+    - field.field.block_content.slider_carousel_with_points.field_slider_carousel_point
+  module:
+    - field_collection
+id: block_content.slider_carousel_with_points.default
+targetEntityType: block_content
+bundle: slider_carousel_with_points
+mode: default
+content:
+  field_slider_carousel_point:
+    weight: 0
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: field_collection_items
+hidden: {  }

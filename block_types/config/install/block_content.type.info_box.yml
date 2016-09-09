@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: info_box
+label: 'Info Box'
+revision: 1
+description: 'Info Box Block Type'

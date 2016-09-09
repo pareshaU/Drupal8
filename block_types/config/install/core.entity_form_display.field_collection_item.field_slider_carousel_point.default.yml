@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_slider_carousel_point.field_link
+    - field.field.field_collection_item.field_slider_carousel_point.field_slider_subtitle
+    - field.field.field_collection_item.field_slider_carousel_point.field_text
+    - field.field.field_collection_item.field_slider_carousel_point.field_title
+    - field_collection.field_collection.field_slider_carousel_point
+  module:
+    - link
+    - text
+    - workbench_moderation
+id: field_collection_item.field_slider_carousel_point.default
+targetEntityType: field_collection_item
+bundle: field_slider_carousel_point
+mode: default
+content:
+  field_link:
+    weight: 4
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_slider_subtitle:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_text:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+hidden: {  }

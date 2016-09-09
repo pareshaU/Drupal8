@@ -1,0 +1,40 @@
+{% set color = content.field_color['#items'].getValue() %}
+
+{%
+  set classes = [
+    's3-p-10',
+  's3-' ~ color.0.value,
+  ]
+%}
+
+{% set title %}
+     {{ content.field_title }}
+{% endset %}
+
+{% set sub_title %}
+     {{ content.field_sub_title }}
+{% endset %}
+
+{% set conBody %}
+     {{ content.field_body }}
+{% endset %}
+
+
+
+<div {{ attributes.addClass(classes) }}>
+  <div class="row">
+    <div class="col-xs-12 text-center">
+      {% if title %}
+        <h2>{{ title |striptags }}</h2>
+      {% endif %}
+      {% if sub_title %}
+        <p class="h5 text-uppercase">{{ sub_title |striptags }}</p>
+      {% endif %}
+      {% if conBody %}
+        {{ conBody }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+

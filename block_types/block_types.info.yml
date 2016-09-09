@@ -1,0 +1,13 @@
+name: 'Block Types'
+type: module
+core: 8.x
+dependencies:
+  - block_content
+  - field
+  - field_collection
+  - file
+  - image
+  - link
+  - options
+  - text
+description: 'This module is provide custom block type features.'

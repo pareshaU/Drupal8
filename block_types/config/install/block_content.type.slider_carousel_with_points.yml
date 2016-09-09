@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: slider_carousel_with_points
+label: 'Slider Carousel with Points'
+revision: 1
+description: 'Slider Carousel with Points.'

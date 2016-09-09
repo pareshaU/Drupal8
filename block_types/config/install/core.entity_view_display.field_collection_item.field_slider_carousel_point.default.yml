@@ -1,0 +1,49 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.field_collection_item.field_slider_carousel_point.field_link
+    - field.field.field_collection_item.field_slider_carousel_point.field_slider_subtitle
+    - field.field.field_collection_item.field_slider_carousel_point.field_text
+    - field.field.field_collection_item.field_slider_carousel_point.field_title
+    - field_collection.field_collection.field_slider_carousel_point
+  module:
+    - link
+    - text
+id: field_collection_item.field_slider_carousel_point.default
+targetEntityType: field_collection_item
+bundle: field_slider_carousel_point
+mode: default
+content:
+  field_link:
+    weight: 3
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_slider_subtitle:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_text:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

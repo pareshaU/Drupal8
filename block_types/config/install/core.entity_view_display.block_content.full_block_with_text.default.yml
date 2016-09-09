@@ -1,0 +1,57 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block_with_text
+    - field.field.block_content.full_block_with_text.field_body
+    - field.field.block_content.full_block_with_text.field_color
+    - field.field.block_content.full_block_with_text.field_link
+    - field.field.block_content.full_block_with_text.field_sub_title
+    - field.field.block_content.full_block_with_text.field_title
+  module:
+    - link
+    - options
+    - text
+id: block_content.full_block_with_text.default
+targetEntityType: block_content
+bundle: full_block_with_text
+mode: default
+content:
+  field_body:
+    weight: 5
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+  field_color:
+    weight: 3
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_link:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_sub_title:
+    weight: 1
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_title:
+    weight: 0
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+hidden: {  }

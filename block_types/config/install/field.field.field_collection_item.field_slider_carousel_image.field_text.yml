@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_text
+    - field_collection.field_collection.field_slider_carousel_image
+  module:
+    - text
+id: field_collection_item.field_slider_carousel_image.field_text
+field_name: field_text
+entity_type: field_collection_item
+bundle: field_slider_carousel_image
+label: Text
+description: "This is for the body text of your block.\r\n"
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

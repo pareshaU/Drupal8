@@ -1,0 +1,6 @@
+name: 'Custom Module'
+type: module
+description: 'Geneal module for custom development.'
+package: Custom
+core: 8.x
+hiddern: false

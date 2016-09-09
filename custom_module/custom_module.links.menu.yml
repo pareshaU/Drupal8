@@ -1,0 +1,5 @@
+custom_module.settings:
+  title: 'Custom Module Settings'
+  description: 'sitewide configuration'
+  parent: system.admin_config
+  route_name: custom.settings

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.full_block_with_image_and_text
+    - field.storage.block_content.field_sub_title
+id: block_content.full_block_with_image_and_text.field_sub_title
+field_name: field_sub_title
+entity_type: block_content
+bundle: full_block_with_image_and_text
+label: 'Sub Title'
+description: 'This will be subtitle text in your block.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

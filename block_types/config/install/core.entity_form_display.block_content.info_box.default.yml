@@ -1,0 +1,70 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.info_box
+    - field.field.block_content.info_box.field_body
+    - field.field.block_content.info_box.field_color
+    - field.field.block_content.info_box.field_image
+    - field.field.block_content.info_box.field_link
+    - field.field.block_content.info_box.field_sub_title
+    - field.field.block_content.info_box.field_title
+    - image.style.thumbnail
+  module:
+    - image
+    - link
+    - text
+    - workbench_moderation
+id: block_content.info_box.default
+targetEntityType: block_content
+bundle: info_box
+mode: default
+content:
+  field_body:
+    weight: 6
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+  field_color:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_image:
+    weight: 4
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_link:
+    weight: 7
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+  field_sub_title:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_title:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  info:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }
