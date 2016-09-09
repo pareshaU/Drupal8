@@ -1,3 +1,3 @@
 # Drupal8
 
-Code snippets for Custom block type as a feature.
+Code snippets for Custom block types as a feature.
